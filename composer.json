@@ -1,0 +1,15 @@
+{	
+	"autoload": {
+		"classmap": [
+			"lib/loan.php",
+			"lib/investorWallet.php",
+			"lib/investorWalletInterface.php",
+		]
+	},
+	"require": {
+		"ext-curl": "^7.3"
+	},
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
